@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* @font-face{
+  font-family: 'Moon-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Moon-Light'), url(./Fonts/Moon-Light.otf) format('otf');
+}
+
+@font-face{
+  font-family: 'Moon-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Moon-Bold'), url(./Fonts/Moon-Bold.otf) format('otf'),
+} */

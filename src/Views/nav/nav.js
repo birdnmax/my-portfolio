@@ -2,7 +2,7 @@ import React from 'react';
 import {Link, animateScroll as scroll} from 'react-scroll';
 import {ScrollTo} from 'react-scroll-to';
 import './Nav.css';
-import '../assets/bird.png';
+import bird from '../assets/bird.png';
 
 export default function Nav (){
     const scroll = id => {
@@ -11,7 +11,7 @@ export default function Nav (){
     return (
         <nav className='nav' id='navbar'>
             <div className='nav-content'>
-                {/* <img src='./bird.png' className='bird-logo' alt='bird' onClick={this.scrollToTop}/> */}
+                <img src={bird} onClick={() => scroll('home')} className='bird-logo' alt='bird' />
                 <ul className='nav-items'>
                     <li onClick={() => scroll('home')} className='nav-item'>Home</li>
                     <li onClick={() => scroll('about')} className='nav-item'>About</li>

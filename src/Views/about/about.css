@@ -1,3 +1,24 @@
 .about{
-    height: 100vh;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #DCD0C0;
+}
+
+.about-stuff{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-info{
+    width: 400px;
+}
+
+.brit-pic{
+    width: 400px;
 }
